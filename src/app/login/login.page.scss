@@ -38,6 +38,12 @@ ion-content{
         ion-item::part(native){
             padding-left: 0;
         }
+
+        .item-background-color{
+            --ion-item-background:#7b7b7b;
+            --ion-item-color: #000;
+            border-radius: 1rem;
+        }
         
         ion-icon{
             position: absolute;
@@ -58,20 +64,20 @@ ion-content{
             font-size: 0.9rem;
             --padding-start: 36px;
             --padding-top: 36px;
-            color: #7b7b7b;
         }
     }
     .action-buttons{
-        text-align: center;
+        text-align: left;
         .login-button{
-            --background: #f9b801;
-            width: 100%;
+            --background: #7b7b7b;
+            width: 40%;
             font-weight: bold;
+            margin-right: 50%;
+            text-transform: capitalize;
         }
         p{
             margin-top: 15px;
             font-size: 1rem;
-            color: #7b7b7b;
         }
         .signup-button{
             --border-color: #b4b4b4b4;
